@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 174, 174);
+}
+
+#container{
+    background-color: rgba(255, 255, 255, .3);
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+}
+
+#heading{
+    margin-bottom: 20px;
+}
+
+#input{
+    height: 53px;
+    width: 300px;
+    padding: 0 40px;
+    background-color: rgba(255, 255, 255, .6);
+    border-color: rgba(255, 255, 255, .4);
+    border-radius: 7px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+#infoText{
+    font-size: 14px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+#wordTitle{
+    margin-bottom: 15px;
+}
+
+#wordMeaning{
+    margin-bottom: 15px;
+}
+
+#meaningConatiner{
+    display: none;
+}
